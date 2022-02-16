@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    
+}
+#container{
+    background: gray;
+    padding-bottom: 10px;
+}
+#container > div{
+    margin: 20px;
+} 
+h1{
+    text-align: center;
+}
+
+.contenedor1 {
+    background-color: rgb(30, 177, 235);
+}
+
+.contenedor2{
+    background-color:rgb(215, 175, 216);
+    
+}
+.contenedor3{
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+img.box{
+    height: 170px;
+    margin: 10px;
+}
+.contenedor1, .contenedor2, .contenedor3{
+    justify-content: center;
+    display:flex;
+    align-items:space-around;
+    height:200px;
+
+}
